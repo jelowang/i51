@@ -1,0 +1,15 @@
+Name:NULL
+Set:16
+Endian:0
+Type:0
+Version:0.0.0
+Screen:NULL
+Kernel:0.0.2
+Adapter:0.0.2
+Weight:0
+Resources:NULL
+Appkits:NULL
+Syskits:NULL
+Files:i51KitP2.c
+Language:C
+Compiler:ADS

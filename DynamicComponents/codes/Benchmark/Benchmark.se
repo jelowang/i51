@@ -1,0 +1,13 @@
+Name:NULL
+Set:16
+Endian:0
+Type:0
+Version:1
+Screen:240x320
+Kernel:1
+Adapter:1
+Weight:0
+Resources:NULL
+Appkits:i51KIT\PKiGAPI\i51KitG2.kit,i51KIT\PKiGAPI\i51KitStd.kit
+Syskits:NULL 
+Files:Benchmark.c
