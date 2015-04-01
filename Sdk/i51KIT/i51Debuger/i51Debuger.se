@@ -1,0 +1,15 @@
+Name:NULL
+Set:16
+Endian:0
+Type:0
+Version:0.0.15
+Screen:NULL
+Kernel:0.0.2
+Adapter:0.0.2
+Weight:0
+Resources:NULL
+Appkits:i51KIT\PKiGAPI\i51KitStd.kit,i51KIT\PKiGAPI\i51KitG2.kit
+Syskits:i51SYS\i51KitServer.kit
+Files:i51Debuger.c,Interactive.c,Kernel.c,Adapter.c,BenchMark.c,TReport.c,Soundsrc.c
+Language:C
+Compiler:ADS

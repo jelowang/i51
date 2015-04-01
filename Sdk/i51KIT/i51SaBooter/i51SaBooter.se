@@ -1,0 +1,13 @@
+Name:NULL
+Set:16
+Endian:0
+Type:1
+Version:1
+Screen:240x320,240x400,320x240,320x480,272x480
+Kernel:1
+Adapter:1
+Weight:0
+Resources:NULL
+Appkits:NULL
+Syskits:NULL
+Files:i51SaBooter.c

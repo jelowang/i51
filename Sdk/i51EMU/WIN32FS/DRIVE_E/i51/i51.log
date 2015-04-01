@@ -1,0 +1,649 @@
+KEL : Send REQ Start , 0x80e0000 , 0x100d , 0x0 , 0x0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 1488830 , 5
+KEL : Send REQ Finished , Rtr : 1 , Tid : 1
+KEL : Dispatched S , Mt : 1 , St : 0
+KEL : LOADEX S , 0x80e0000
+KEL : NO Sober Exist , Stop Kernel Timer
+KEL : Stop Timer S , 0x2 , 0x0
+OS : i51AdeOsTimerStop , 2
+KEL : Stop Timer E , ret 0x1
+KEL : Run DAP 0x3f03cd0 , 0x0
+KEL : Load i51-App 'Appmenu , 0x64eff5c , 0x64efe50'
+KEL : Totall Sober 1
+KEL : Start Timer S , 0x2d , 0x1488260
+KEL : Create Timer S
+OS : i51AdeOsTimerCreate , 1 , 0 , ret = 2
+KEL : Create Timer E
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+OS : i51AdeOsTimerStart , 2 , 1488260 , 45
+KEL : Start Timer E , ret 0x1
+KEL : Load i51-App Finished , Id 0x80e0000
+KEL : Run DAP , ret = 0x0
+KEL : LOADEX E
+KEL : REQ Dispatched
+OS : i51AdeOsTimerStart , 1 , 1488830 , 10
+KEL : Dispatched S , Mt : 0 , St : 0
+OS : i51AdeOsTimerStop , 1
+KEL : MSG-Queue Empty
+[APPMENU]SerialNumberValid Success!
+[APPMENU]CheckAppCompleten Success!
+KEL : Send REQ Start , 0x80e0000 , 0x100d , 0x0 , 0x0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 1488830 , 5
+KEL : Send REQ Finished , Rtr : 1 , Tid : 1
+KEL : Dispatched S , Mt : 1 , St : 0
+KEL : LOADEX S , 0x80e0000
+KEL : NO Sober Exist , Stop Kernel Timer
+KEL : Stop Timer S , 0x2 , 0x0
+OS : i51AdeOsTimerStop , 2
+KEL : Stop Timer E , ret 0x1
+KEL : Run DAP 0x3f031c4 , 0x0
+KEL : Load i51-App 'CutFruit , 0x64eff5c , 0x64efe50'
+KEL : R APP F , S 2
+KEL : Run DAP , ret = 0x1
+KEL : LOADEX F
+KEL : NO Sober Exist , Stop Kernel Timer
+KEL : Stop Timer S , 0x0 , 0x0
+KEL : LOADEX E
+KEL : REQ Dispatched
+OS : i51AdeOsTimerStart , 1 , 1488830 , 10
+KEL : Dispatched S , Mt : 0 , St : 0
+OS : i51AdeOsTimerStop , 1
+KEL : Release Front-End S
+PORT : i51PortReleaseFrontEnd , Release Front-End S
+PORT : ExitSreen S, Front app run = 0
+PORT : ExitSreen , E
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 14865d0 , 30
+PORT : i51ExitDo , MEM left:853456
+PORT : i51PortReleaseFrontEnd , Release Front-End E
+KEL : Release Front-End E
+KEL : i51KernelUnloadKitCore
+KEL : i51KernelUnloadKitCore ready unloead
+OS : MMTCheckLeaked , Let's Check Memory Leaking :)
+OS : MMTCheckLeaked , No Memory Leaking At All :)
+KEL : MSG-Queue Empty
+KEL : Run SAP 'i51Explorer' , 0x1c75350 , 0x14000 , 0x0 , 0x0 , 0x1
+KEL : Totall Sober 1
+KEL : Start Timer S , 0x2d , 0x1488260
+KEL : Create Timer S
+OS : i51AdeOsTimerCreate , 1 , 0 , ret = 2
+KEL : Create Timer E
+KEL : Create Front-End
+PORT : i51PortCreateFrontEnd , S
+PORT : EntrySreen , S , Front app run = 0
+PORT : i51PortCreateFrontEnd , fontend app will run
+PORT : i51PortCreateFrontEnd , E
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+OS : i51AdeOsTimerStart , 2 , 1488260 , 45
+KEL : Start Timer E , ret 0x1
+KEL : Run SAP Finished
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+KEL : Send REQ Start , 0x80e0000 , 0x100d , 0x0 , 0x0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 1488830 , 5
+KEL : Send REQ Finished , Rtr : 1 , Tid : 1
+KEL : Dispatched S , Mt : 1 , St : 0
+KEL : LOADEX S , 0x80e0000
+KEL : NO Sober Exist , Stop Kernel Timer
+KEL : Stop Timer S , 0x2 , 0x0
+OS : i51AdeOsTimerStop , 2
+KEL : Stop Timer E , ret 0x1
+KEL : Run DAP 0x3f03cd0 , 0x0
+KEL : Load i51-App 'Appmenu , 0x64eff5c , 0x64efe50'
+KEL : Totall Sober 1
+KEL : Start Timer S , 0x2d , 0x1488260
+KEL : Create Timer S
+OS : i51AdeOsTimerCreate , 1 , 0 , ret = 2
+KEL : Create Timer E
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+OS : i51AdeOsTimerStart , 2 , 1488260 , 45
+KEL : Start Timer E , ret 0x1
+KEL : Load i51-App Finished , Id 0x80e0000
+KEL : Run DAP , ret = 0x0
+KEL : LOADEX E
+KEL : REQ Dispatched
+OS : i51AdeOsTimerStart , 1 , 1488830 , 10
+KEL : Dispatched S , Mt : 0 , St : 0
+OS : i51AdeOsTimerStop , 1
+KEL : MSG-Queue Empty
+[APPMENU]SerialNumberValid Success!
+[APPMENU]CheckAppCompleten Failure!
+OS : i51AdeOsFileOpen E , result 7,filename:E:\i51\i51KIT\PKiGAPI\i51KitCore.kit
+OS : i51AdeOsFileClose , E , result 0 ,iFILE 7
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+SL - DL : dl kitcore
+SL -DL : minidl start uri=GET /i51KitCore_ARM_LE/i51KitCore.kit HTTP/1.1
+Host:  hz.51pk.com:80
+Content-Length:          0
+
+,path=i51\i51KIT\PKiGAPI, name=i51KitCore.kit, urisize=101
+SOC : i51AdeSocCreateLinkLayer , 2 ,1
+SOC : i51AdeSocOpenLinkLayer , 11909738 ,1 ,64ef9d0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149bb60 , 1
+OS : i51AdeOsTimerCreate , 1 , 1 , ret = 3
+OS : i51AdeOsTimerStart , 3 , 1490210 , 3000
+OS : i51AdeOsTimerStop , 1
+i51MiniOpenLinkCallback:1
+OS : i51AdeOsTimerStop , 3
+SOC : i51AdeSocGet , S
+SOC : i51AdeSocGet , sys soc id = 2
+SOC : i51AdeSocGet , E , ret = 0
+OS : i51AdeOsTimerCreate , 1 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 1490210 , 3000
+SOC : i51AdeSocConnect , S , soc_id=0 , 3b402d0 , 1490450
+SOC : i51AdeSocConnect
+
+SOC : i51AcountIndex = 1
+
+SOC : i51NWKAcountId = 151027201
+
+SOC : i51AdeSocConnect , E
+SOC : i51AdeSocNotify , S 
+SOC : i51AdeSocNotify , soc id = 0, event_type = 8
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 3
+OS : i51AdeOsTimerStart , 3 , 149beb0 , 1
+SOC : i51AdeSocNotify , E
+SOC : i51AdeSocAsynCallBack1 , call soc 0  connect cb
+OS : i51AdeOsTimerStop , 3
+SocketConnectCallback:1
+GET /i51KitCore_ARM_LE/i51KitCore.kit HTTP/1.1
+Host:  hz.51pk.com:80
+Content-Length:          0
+
+
+SOC : i51AdeSocSend , S , soc_id=0 , data=3b402d9 , length=101 , callback=14905f0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 3
+OS : i51AdeOsTimerStart , 3 , 149beb0 , 1
+SOC : i51AdeSocAsynCallBack1 , call soc 0  send cb
+OS : i51AdeOsTimerStop , 3
+SocketSendCallback:1
+SOC : i51AdeSocReceive , S , soc_id=0 , 3b402d9 , 2048 , 1490660
+OS : i51AdeOsTimerCreate , 1 , 1 , ret = 3
+SOC : i51AdeSocReceive , timerid = 3 , socket = 0  
+OS : i51AdeOsTimerStart , 3 , 149d0b0 , 1
+HTTP/1.1 404 /i51KitCore_ARM_LE/i51KitCore.kit
+Server: nginx/1.0.11
+Date: Sat, 10 Aug 2013 06:29:05 GMT
+Content-Type: text/html;charset=utf-8
+Connection: keep-alive
+Content-Length: 1051
+
+<html><head><title>Apache Tomcat/5.5.26 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /i51KitCore_ARM_LE/i51KitCore.kit</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/i51KitCore_ARM_LE/i51KitCore.kit</u></p><p><b>description</b> <u>The requested resource (/i51KitCore_ARM_LE/i51KitCore.kit) is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/5.5.26</h3></body></html>
+SL -DL : minidl stop
+OS : i51AdeOsTimerStop , 3
+SOC : i51AdeSocCloseLinkLayer , 11909738 ,1
+SOC : i51AdeSocReleaseLinkLayer , 1
+OS : i51AdeOsTimerStop , 1
+PORT : i51KeyNotify , keyCode = 18 , keyType = 0
+KEL : i51 Exit S
+KEL : Exit DAP S
+KEL : NO Sober Exist , Stop Kernel Timer
+KEL : Stop Timer S , 0x2 , 0x0
+OS : i51AdeOsTimerStop , 2
+KEL : Stop Timer E , ret 0x1
+OS : i51AdeOsFileOpen E , result 7,filename:E:\i51\i51KIT\PKiGAPI\i51KitCore.kit
+OS : i51AdeOsFileClose , E , result 0 ,iFILE 7
+KEL : Using App-Disk Mode
+i51 : Hello There
+KEL : Init Start
+KEL : Kernel Version 0.3.23
+KEL : Adapter MTK , W 240 H 320
+KEL : Adapter Version 0.6.1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 14987c0 , 1
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149dcb0 , 1
+OS : i51AdeOsTimerStop , 1
+SMS : __MMI_DUAL_SIM_MASTER__ define
+SMS : i51SmsGetSc1Rsp , i51sc1 = +
+SMS : i51SmsGetSc2Rsp , i51sc2 = +
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149b4a0 , 1
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 14865d0 , 30
+KEL : Init Succeed
+KEL : Load i51KitServer
+KEL : Load Sys-Kit 'i51KitServer.kit'
+OS : i51AdeOsFileIsExist , BE , -9
+KEL : Kit Exist F
+KEL : Load i51KitServer Failed
+KEL : Run SAP 'i51Explorer' , 0x1c75350 , 0x14000 , 0x0 , 0x0 , 0x1
+KEL : Totall Sober 1
+KEL : Start Timer S , 0x2d , 0x1488260
+KEL : Create Timer S
+OS : i51AdeOsTimerCreate , 1 , 0 , ret = 2
+KEL : Create Timer E
+KEL : Create Front-End
+PORT : i51PortCreateFrontEnd , S
+PORT : EntrySreen , S , Front app run = 0
+PORT : i51PortCreateFrontEnd , fontend app will run
+PORT : i51PortCreateFrontEnd , E
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+OS : i51AdeOsTimerStart , 2 , 1488260 , 45
+KEL : Start Timer E , ret 0x1
+KEL : Run SAP Finished
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+PORT : i51KeyNotify , keyCode = 10 , keyType = 0
+PORT : i51KeyNotify , keyCode = 10 , keyType = 1
+KEL : Using App-Disk Mode
+i51 : Hello There
+KEL : Init Start
+KEL : Kernel Version 0.3.23
+KEL : Adapter MTK , W 240 H 320
+KEL : Adapter Version 0.6.1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 14987c0 , 1
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149dcb0 , 1
+OS : i51AdeOsTimerStop , 1
+SMS : __MMI_DUAL_SIM_MASTER__ define
+SMS : i51SmsGetSc1Rsp , i51sc1 = +
+SMS : i51SmsGetSc2Rsp , i51sc2 = +
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149b4a0 , 1
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 14865d0 , 30
+KEL : Init Succeed
+KEL : Load i51KitServer
+KEL : Load Sys-Kit 'i51KitServer.kit'
+OS : i51AdeOsFileIsExist , BE , -9
+KEL : Kit Exist F
+KEL : Load i51KitServer Failed
+KEL : Run SAP 'i51Explorer' , 0x1c75350 , 0x14000 , 0x0 , 0x0 , 0x1
+KEL : Totall Sober 1
+KEL : Start Timer S , 0x2d , 0x1488260
+KEL : Create Timer S
+OS : i51AdeOsTimerCreate , 1 , 0 , ret = 2
+KEL : Create Timer E
+KEL : Create Front-End
+PORT : i51PortCreateFrontEnd , S
+PORT : EntrySreen , S , Front app run = 0
+PORT : i51PortCreateFrontEnd , fontend app will run
+PORT : i51PortCreateFrontEnd , E
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+OS : i51AdeOsTimerStart , 2 , 1488260 , 45
+KEL : Start Timer E , ret 0x1
+KEL : Run SAP Finished
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+KEL : Using App-Disk Mode
+i51 : Hello There
+KEL : Init Start
+KEL : Kernel Version 0.3.23
+KEL : Adapter MTK , W 240 H 320
+KEL : Adapter Version 0.6.1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 14987c0 , 1
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149dcb0 , 1
+OS : i51AdeOsTimerStop , 1
+SMS : __MMI_DUAL_SIM_MASTER__ define
+SMS : i51SmsGetSc1Rsp , i51sc1 = +
+SMS : i51SmsGetSc2Rsp , i51sc2 = +
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149b4a0 , 1
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 14865d0 , 30
+KEL : Init Succeed
+KEL : Load i51KitServer
+KEL : Load Sys-Kit 'i51KitServer.kit'
+OS : i51AdeOsFileIsExist , BE , -9
+KEL : Kit Exist F
+KEL : Load i51KitServer Failed
+KEL : Run SAP 'i51Explorer' , 0x1c75350 , 0x14000 , 0x0 , 0x0 , 0x1
+KEL : Totall Sober 1
+KEL : Start Timer S , 0x2d , 0x1488260
+KEL : Create Timer S
+OS : i51AdeOsTimerCreate , 1 , 0 , ret = 2
+KEL : Create Timer E
+KEL : Create Front-End
+PORT : i51PortCreateFrontEnd , S
+PORT : EntrySreen , S , Front app run = 0
+PORT : i51PortCreateFrontEnd , fontend app will run
+PORT : i51PortCreateFrontEnd , E
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+OS : i51AdeOsTimerStart , 2 , 1488260 , 45
+KEL : Start Timer E , ret 0x1
+KEL : Run SAP Finished
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+KEL : Send REQ Start , 0x80e0000 , 0x100d , 0x0 , 0x0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 1488830 , 5
+KEL : Send REQ Finished , Rtr : 1 , Tid : 1
+KEL : Dispatched S , Mt : 1 , St : 0
+KEL : LOADEX S , 0x80e0000
+KEL : NO Sober Exist , Stop Kernel Timer
+KEL : Stop Timer S , 0x2 , 0x0
+OS : i51AdeOsTimerStop , 2
+KEL : Stop Timer E , ret 0x1
+KEL : Run DAP 0x3f03cec , 0x0
+KEL : Load i51-App 'Appmenu , 0x64eff5c , 0x64efe50'
+KEL : Totall Sober 1
+KEL : Start Timer S , 0x2d , 0x1488260
+KEL : Create Timer S
+OS : i51AdeOsTimerCreate , 1 , 0 , ret = 2
+KEL : Create Timer E
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+OS : i51AdeOsTimerStart , 2 , 1488260 , 45
+KEL : Start Timer E , ret 0x1
+KEL : Load i51-App Finished , Id 0x80e0000
+KEL : Run DAP , ret = 0x0
+KEL : LOADEX E
+KEL : REQ Dispatched
+OS : i51AdeOsTimerStart , 1 , 1488830 , 10
+KEL : Dispatched S , Mt : 0 , St : 0
+OS : i51AdeOsTimerStop , 1
+KEL : MSG-Queue Empty
+[APPMENU]SerialNumberValid Success!
+[APPMENU]CheckAppCompleten Failure!
+OS : i51AdeOsFileOpen E , result 7,filename:E:\i51\i51KIT\PKiGAPI\i51KitCore.kit
+OS : i51AdeOsFileClose , E , result 0 ,iFILE 7
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+SL - DL : dl kitcore
+SL -DL : minidl start uri=GET /i51KitCore_ARM_LE/i51KitCore.kit HTTP/1.1
+Host:  hz.51pk.com:80
+Content-Length:          0
+
+,path=i51\i51KIT\PKiGAPI, name=i51KitCore.kit, urisize=101
+SOC : i51AdeSocCreateLinkLayer , 2 ,1
+SOC : i51AdeSocOpenLinkLayer , 11909738 ,1 ,64ef994
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149bb60 , 1
+OS : i51AdeOsTimerCreate , 1 , 1 , ret = 3
+OS : i51AdeOsTimerStart , 3 , 1490210 , 3000
+OS : i51AdeOsTimerStop , 1
+i51MiniOpenLinkCallback:1
+OS : i51AdeOsTimerStop , 3
+SOC : i51AdeSocGet , S
+SOC : i51AdeSocGet , sys soc id = 2
+SOC : i51AdeSocGet , E , ret = 0
+OS : i51AdeOsTimerCreate , 1 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 1490210 , 3000
+SOC : i51AdeSocConnect , S , soc_id=0 , 3b402d0 , 1490450
+SOC : i51AdeSocConnect
+
+SOC : i51AcountIndex = 1
+
+SOC : i51NWKAcountId = 151027201
+
+SOC : i51AdeSocConnect , E
+SOC : i51AdeSocNotify , S 
+SOC : i51AdeSocNotify , soc id = 0, event_type = 8
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 3
+OS : i51AdeOsTimerStart , 3 , 149beb0 , 1
+SOC : i51AdeSocNotify , E
+SOC : i51AdeSocAsynCallBack1 , call soc 0  connect cb
+OS : i51AdeOsTimerStop , 3
+SocketConnectCallback:1
+GET /i51KitCore_ARM_LE/i51KitCore.kit HTTP/1.1
+Host:  hz.51pk.com:80
+Content-Length:          0
+
+
+SOC : i51AdeSocSend , S , soc_id=0 , data=3b402d9 , length=101 , callback=14905f0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 3
+OS : i51AdeOsTimerStart , 3 , 149beb0 , 1
+SOC : i51AdeSocAsynCallBack1 , call soc 0  send cb
+OS : i51AdeOsTimerStop , 3
+SocketSendCallback:1
+SOC : i51AdeSocReceive , S , soc_id=0 , 3b402d9 , 2048 , 1490660
+OS : i51AdeOsTimerCreate , 1 , 1 , ret = 3
+SOC : i51AdeSocReceive , timerid = 3 , socket = 0  
+OS : i51AdeOsTimerStart , 3 , 149d0b0 , 1
+HTTP/1.1 404 /i51KitCore_ARM_LE/i51KitCore.kit
+Server: nginx/1.0.11
+Date: Sat, 10 Aug 2013 06:52:31 GMT
+Content-Type: text/html;charset=utf-8
+Connection: keep-alive
+Content-Length: 1051
+
+<html><head><title>Apache Tomcat/5.5.26 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /i51KitCore_ARM_LE/i51KitCore.kit</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/i51KitCore_ARM_LE/i51KitCore.kit</u></p><p><b>description</b> <u>The requested resource (/i51KitCore_ARM_LE/i51KitCore.kit) is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/5.5.26</h3></body></html>
+SL -DL : minidl stop
+OS : i51AdeOsTimerStop , 3
+SOC : i51AdeSocCloseLinkLayer , 11909738 ,1
+SOC : i51AdeSocReleaseLinkLayer , 1
+OS : i51AdeOsTimerStop , 1
+PORT : i51KeyNotify , keyCode = 11 , keyType = 0
+PORT : i51KeyNotify , keyCode = 11 , keyType = 1
+PORT : i51KeyNotify , keyCode = 18 , keyType = 0
+KEL : i51 Exit S
+KEL : Exit DAP S
+KEL : NO Sober Exist , Stop Kernel Timer
+KEL : Stop Timer S , 0x2 , 0x0
+OS : i51AdeOsTimerStop , 2
+KEL : Stop Timer E , ret 0x1
+OS : i51AdeOsFileOpen E , result 7,filename:E:\i51\i51KIT\PKiGAPI\i51KitCore.kit
+OS : i51AdeOsFileClose , E , result 0 ,iFILE 7
+KEL : Using App-Disk Mode
+i51 : Hello There
+KEL : Init Start
+KEL : Kernel Version 0.3.23
+KEL : Adapter MTK , W 240 H 320
+KEL : Adapter Version 0.6.1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 14987c0 , 1
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149dcb0 , 1
+OS : i51AdeOsTimerStop , 1
+SMS : __MMI_DUAL_SIM_MASTER__ define
+SMS : i51SmsGetSc1Rsp , i51sc1 = +
+SMS : i51SmsGetSc2Rsp , i51sc2 = +
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149b4a0 , 1
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 14865d0 , 30
+KEL : Init Succeed
+KEL : Load i51KitServer
+KEL : Load Sys-Kit 'i51KitServer.kit'
+OS : i51AdeOsFileIsExist , BE , -9
+KEL : Kit Exist F
+KEL : Load i51KitServer Failed
+KEL : Run SAP 'i51Explorer' , 0x1c75350 , 0x14000 , 0x0 , 0x0 , 0x1
+KEL : Totall Sober 1
+KEL : Start Timer S , 0x2d , 0x1488260
+KEL : Create Timer S
+OS : i51AdeOsTimerCreate , 1 , 0 , ret = 2
+KEL : Create Timer E
+KEL : Create Front-End
+PORT : i51PortCreateFrontEnd , S
+PORT : EntrySreen , S , Front app run = 0
+PORT : i51PortCreateFrontEnd , fontend app will run
+PORT : i51PortCreateFrontEnd , E
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+OS : i51AdeOsTimerStart , 2 , 1488260 , 45
+KEL : Start Timer E , ret 0x1
+KEL : Run SAP Finished
+OS : i51AdeOsTimerStop , 1
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+OS : i51AdeOsFileIsExist , BE , -9
+OS : i51AdeOsFileFindNext , BE
+KEL : Send REQ Start , 0x80e0000 , 0x100d , 0x0 , 0x0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 1488830 , 5
+KEL : Send REQ Finished , Rtr : 1 , Tid : 1
+KEL : Dispatched S , Mt : 1 , St : 0
+KEL : LOADEX S , 0x80e0000
+KEL : NO Sober Exist , Stop Kernel Timer
+KEL : Stop Timer S , 0x2 , 0x0
+OS : i51AdeOsTimerStop , 2
+KEL : Stop Timer E , ret 0x1
+KEL : Run DAP 0x3f03cec , 0x0
+KEL : Load i51-App 'Appmenu , 0x64eff5c , 0x64efe50'
+KEL : Totall Sober 1
+KEL : Start Timer S , 0x2d , 0x1488260
+KEL : Create Timer S
+OS : i51AdeOsTimerCreate , 1 , 0 , ret = 2
+KEL : Create Timer E
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+OS : i51AdeOsTimerStart , 2 , 1488260 , 45
+KEL : Start Timer E , ret 0x1
+KEL : Load i51-App Finished , Id 0x80e0000
+KEL : Run DAP , ret = 0x0
+KEL : LOADEX E
+KEL : REQ Dispatched
+OS : i51AdeOsTimerStart , 1 , 1488830 , 10
+KEL : Dispatched S , Mt : 0 , St : 0
+OS : i51AdeOsTimerStop , 1
+KEL : MSG-Queue Empty
+[APPMENU]SerialNumberValid Success!
+[APPMENU]CheckAppCompleten Failure!
+OS : i51AdeOsFileOpen E , result 7,filename:E:\i51\i51KIT\PKiGAPI\i51KitCore.kit
+OS : i51AdeOsFileClose , E , result 0 ,iFILE 7
+KEL : i51KernelLoadKitCore
+KEL : Load Kit 'PKiGAPI\i51KitCore.kit'
+KEL : Kit Exist F
+KEL: Load i51KitCore F
+SL - DL : dl kitcore
+SL -DL : minidl start uri=GET /i51KitCore_ARM_LE/i51KitCore.kit HTTP/1.1
+Host:  hz.51pk.com:80
+Content-Length:          0
+
+,path=i51\i51KIT\PKiGAPI, name=i51KitCore.kit, urisize=101
+SOC : i51AdeSocCreateLinkLayer , 2 ,1
+SOC : i51AdeSocOpenLinkLayer , 11909738 ,1 ,64ef9d0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 149bb60 , 1
+OS : i51AdeOsTimerCreate , 1 , 1 , ret = 3
+OS : i51AdeOsTimerStart , 3 , 1490210 , 3000
+OS : i51AdeOsTimerStop , 1
+i51MiniOpenLinkCallback:1
+OS : i51AdeOsTimerStop , 3
+SOC : i51AdeSocGet , S
+SOC : i51AdeSocGet , sys soc id = 2
+SOC : i51AdeSocGet , E , ret = 0
+OS : i51AdeOsTimerCreate , 1 , 1 , ret = 1
+OS : i51AdeOsTimerStart , 1 , 1490210 , 3000
+SOC : i51AdeSocConnect , S , soc_id=0 , 3b402d0 , 1490450
+SOC : i51AdeSocConnect
+
+SOC : i51AcountIndex = 1
+
+SOC : i51NWKAcountId = 151027201
+
+SOC : i51AdeSocConnect , E
+SOC : i51AdeSocNotify , S 
+SOC : i51AdeSocNotify , soc id = 0, event_type = 8
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 3
+OS : i51AdeOsTimerStart , 3 , 149beb0 , 1
+SOC : i51AdeSocNotify , E
+SOC : i51AdeSocAsynCallBack1 , call soc 0  connect cb
+OS : i51AdeOsTimerStop , 3
+SocketConnectCallback:1
+GET /i51KitCore_ARM_LE/i51KitCore.kit HTTP/1.1
+Host:  hz.51pk.com:80
+Content-Length:          0
+
+
+SOC : i51AdeSocSend , S , soc_id=0 , data=3b402d9 , length=101 , callback=14905f0
+OS : i51AdeOsTimerCreate , 0 , 1 , ret = 3
+OS : i51AdeOsTimerStart , 3 , 149beb0 , 1
+SOC : i51AdeSocAsynCallBack1 , call soc 0  send cb
+OS : i51AdeOsTimerStop , 3
+SocketSendCallback:1
+SOC : i51AdeSocReceive , S , soc_id=0 , 3b402d9 , 2048 , 1490660
+OS : i51AdeOsTimerCreate , 1 , 1 , ret = 3
+SOC : i51AdeSocReceive , timerid = 3 , socket = 0  
+OS : i51AdeOsTimerStart , 3 , 149d0b0 , 1
+HTTP/1.1 404 /i51KitCore_ARM_LE/i51KitCore.kit
+Server: nginx/1.0.11
+Date: Sat, 10 Aug 2013 06:52:48 GMT
+Content-Type: text/html;charset=utf-8
+Connection: keep-alive
+Content-Length: 1051
+
+<html><head><title>Apache Tomcat/5.5.26 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /i51KitCore_ARM_LE/i51KitCore.kit</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/i51KitCore_ARM_LE/i51KitCore.kit</u></p><p><b>description</b> <u>The requested resource (/i51KitCore_ARM_LE/i51KitCore.kit) is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/5.5.26</h3></body></html>
+SL -DL : minidl stop
+OS : i51AdeOsTimerStop , 3
+SOC : i51AdeSocCloseLinkLayer , 11909738 ,1
+SOC : i51AdeSocReleaseLinkLayer , 1
+OS : i51AdeOsTimerStop , 1

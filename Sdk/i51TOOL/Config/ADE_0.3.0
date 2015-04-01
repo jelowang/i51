@@ -1,0 +1,7 @@
+"ADE 0.3.0"
+
+i51AdeMmiGetTextAttr 
+i51AdeMmiDrawText 
+i51AdeSmsGetPhoneBook
+i51AdeSmsSendEx
+i51AdeOsRunWapExplorer

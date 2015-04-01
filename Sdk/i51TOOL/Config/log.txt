@@ -1,0 +1,25 @@
+1. 2012-3月份
+MTK
+MSTAR
+修改了两个严重BUG，MTK播放声音文件时大于一个同时在播放导致死机。MSTAR修改进入输入法没有发送i51_MSG_PAUSE、i51_MSG_RESUME消息。
+因为这两个问题在已经出货的机器上也存在，因此为防止这批机器运行使用了以上特性的应用程序，我们将Adapter的次版本号+1，为0.4.X，以此屏蔽风险。
+
+1. 2012-4-17
+增加
+i51_REQ_INSTALLED
+i51_REQ_UNINSTALLED
+i51_MSG_RELOADSERVER
+i51SlDlAbleCreate
+kernel 版本 0.3.0
+
+2. 2012-4-25
+增加
+i51AdeMmiRecorderFormat
+i51_MEDIA_TYPE_AMR
+i51_MEDIA_TYPE_MP3
+Adapter 版本 0.5.0
+修改
+去除i51AdeCnfGetType，它属于0.4.0
+
+3. 2012-7-10
+增加i51AdeMmiRecorderStartEx

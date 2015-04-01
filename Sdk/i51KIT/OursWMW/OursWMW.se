@@ -1,0 +1,15 @@
+Name:NULL
+Set:16
+Endian:0
+Type:1
+Version:0.0.1
+Screen:320*480
+Kernel:0.0.2
+Adapter:0.0.2
+Weight:0
+Resources:NULL
+Appkits:i51KIT\PKiGAPI\i51KitStd.kit,i51KIT\PKiGAPI\i51KitG2.kit
+Syskits:NULL
+Files:i51KitP2.c,i51KitG1.c,WheresMyWater.c,mwPublic.c,mwLevelPublic.c,mwLevelChoose.c,mwStateMode.c,mwStateMain.c,mwStateSet.c,mwStateExit.c,mwLevel001.c,mwLevel002.c,mwLevel003.c,mwLevel004.c,mwLevel005.c,mwLevel006.c,mwLevel007.c,mwLevel008.c,mwLevel009.c,mwLevel010.c,mwLevel011.c,mwLevel012.c,mwLevel013.c,mwLevel014.c,mwLevel015.c
+Language:C
+Compiler:ADS

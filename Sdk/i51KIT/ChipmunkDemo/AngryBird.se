@@ -1,0 +1,15 @@
+Name:NULL
+Set:16
+Endian:0
+Type:0
+Version:1
+Screen:240x320
+Kernel:2
+Adapter:2
+Weight:0
+Resources:NULL
+Appkits:i51KIT\PKiGAPI\i51KitStd.kit,i51KIT\PKiGAPI\i51KitG2.kit
+Syskits:NULL
+Files:AngryBird.cpp,create_container.cpp,i51Public.cpp,LLPInput.cpp,marmota_math.cpp,mm_superangrybird_resource.cpp,mm_superangrybird_bird.cpp,mm_superangrybird_entry.cpp,mm_superangrybird_fly.cpp,mm_superangrybird_go_manager.cpp,mm_superangrybird_graphics.cpp,mm_superangrybird_kernel.cpp,mm_superangrybird_mainmenu.cpp,mm_superangrybird_rwtext.cpp,chipmunk.cpp,cpArbiter.cpp,cpArray.cpp,cpBB.cpp,cpBody.cpp,cpCollision.cpp,cpConstraint.cpp,cpDampedRotarySpring.cpp,cpDampedSpring.cpp,cpGearJoint.cpp,cpHashSet.cpp,cpPinJoint.cpp,cpPivotJoint.cpp,cpPolyShape.cpp,cpRotaryLimitJoint.cpp,cpShape.cpp,cpSimpleMotor.cpp,cpSlideJoint.cpp,cpSpace.cpp,cpSpaceComponent.cpp,cpSpaceHash.cpp,cpSpaceQuery.cpp,cpSpaceStep.cpp,cpVect.cpp
+Language:C++
+Compiler:ADS

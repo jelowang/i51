@@ -1,0 +1,11 @@
+Name:NULL
+Set:16
+Endian:0
+Type:0
+Version:1
+Screen:NULL
+Kernel:1
+Adapter:1
+Weight:0
+Kits:PKiGAPI\i51KitG2.kit
+Files:SnapShotDemo.c

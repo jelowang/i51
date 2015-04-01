@@ -1,0 +1,27 @@
+
+#ifndef THE_i51KitG1_H
+#define THE_i51KitG1_H
+
+#include "i51.h"
+
+#define RELEASE_i51KitG1
+
+i51KIT_DYNAMIC_KIT_DEF_BEGIN
+
+i51KIT_DYNAMIC_KIT_DEF_PORT(i51KitG1Draw)
+i51KIT_DYNAMIC_KIT_DEF_PORT(i51KitG1SetTrack)
+
+i51KIT_DYNAMIC_KIT_DEF_END
+
+i51KIT_DYNAMIC_KIT_DEF_TYPE(iBOOL, i51KitG1Draw, (void))
+i51KIT_DYNAMIC_KIT_DEF_TYPE(iBOOL, i51KitG1SetTrack, (iS16 x, iS16 y, iS32 type))
+
+#ifdef RELEASE_i51KitG1
+
+#define i51KitG1Draw i51KIT_DYNAMIC_KIT_DEF_CALL(i51KitG1,i51KitG1Draw)
+#define i51KitG1SetTrack i51KIT_DYNAMIC_KIT_DEF_CALL(i51KitG1,i51KitG1SetTrack)
+
+#endif 
+
+#endif
+

@@ -1,0 +1,15 @@
+Name:NULL
+Set:16
+Endian:0
+Type:0
+Version:1
+Screen:NULL
+Kernel:2
+Adapter:2
+Weight:0
+Resources:NULL
+Appkits:i51KIT\PKiGAPI\i51KitStd.kit,i51KIT\PKiGAPI\i51KitG2.kit,i51KIT\PKiGAPI\i51KitKey.kit
+Syskits:NULL 
+Files:LiteBox2dDemo.cpp,Box2DDemos.cpp,Arbiter.cpp,Body.cpp,Collide.cpp,Joint.cpp,MathUtils.cpp,World.cpp,MyMap.cpp
+Language:CPP
+Compiler:ADS
