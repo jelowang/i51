@@ -1,0 +1,7 @@
+<VenusXML>
+  <Layout id="I51_TOM_LAYOUT">
+    <VfxPage> 
+      <VfxTextFrame text="pkig_TOM from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>

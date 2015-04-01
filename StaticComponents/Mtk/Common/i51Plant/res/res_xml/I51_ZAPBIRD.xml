@@ -1,0 +1,7 @@
+<VenusXML>
+  <Layout id="I51_ZAPBIRD_LAYOUT">
+    <VfxPage> 
+      <VfxTextFrame text="I51_ZAPBIRD from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>

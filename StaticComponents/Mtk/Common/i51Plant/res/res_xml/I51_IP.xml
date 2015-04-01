@@ -1,0 +1,7 @@
+<VenusXML>
+  <Layout id="I51_IP_LAYOUT">
+    <VfxPage> 
+      <VfxTextFrame text="pkig_IP from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>

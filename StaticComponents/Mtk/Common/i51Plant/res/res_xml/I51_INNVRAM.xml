@@ -1,0 +1,7 @@
+<VenusXML>
+  <Layout id="I51_INNVRAM_LAYOUT">
+    <VfxPage> 
+      <VfxTextFrame text="pkig_INNVRAM from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>

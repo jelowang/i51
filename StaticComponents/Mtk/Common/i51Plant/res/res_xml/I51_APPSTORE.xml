@@ -1,0 +1,7 @@
+<VenusXML>
+  <Layout id="I51_APPSTORE_LAYOUT">
+    <VfxPage> 
+      <VfxTextFrame text="pkig_APPSTORE from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>

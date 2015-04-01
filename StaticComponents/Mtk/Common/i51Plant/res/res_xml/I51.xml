@@ -1,0 +1,7 @@
+<VenusXML>
+  <Layout id="I51_LAYOUT">
+    <VfxPage> 
+      <VfxTextFrame text="I51 from XML!" />
+    </VfxPage>
+  </Layout>
+</VenusXML>
